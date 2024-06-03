@@ -4,6 +4,30 @@ body {
   background-color: #ffffff;
   overflow-x: hidden;
 }
+.service_section {
+  padding: 50px 0; /* Adjust the padding as needed */
+}
+
+.service_section .box {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.service_section .box .img-box img {
+  width: 100%;
+  height: auto;
+}
+
+.service_section .box .detail-box h6 {
+  margin-top: 20px;
+}
+
+.service_section .box .detail-box p {
+  margin-bottom: 20px;
+}
 
 #header {
       background-color: #333;
